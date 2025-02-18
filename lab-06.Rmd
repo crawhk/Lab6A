@@ -54,7 +54,28 @@ Potential Improvements:
 - adjusting the scale of the graph so that you can see the countries that have lower fishery production
 - pie plots are not extremely informative, especially those with a hole in the middle (cannot see the angles which is how one determines sizes of categories)
 
+
+
 ```{r}
 fisheries <- read_csv("data/fisheries.csv")
+```
+
+```{r}
+fisheries
+```
+
+
+```{r}
+fishlong <- fisheries %>%
+  pivot_longer(cols = c(aquaculture,capture, total), 
+               names_to = "Type",
+               values_to = "Counts")
+```
+
+``` {r}
+fishlong
+```
+
+```{r}
 ```
 
