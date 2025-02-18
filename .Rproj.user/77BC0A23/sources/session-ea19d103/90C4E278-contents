@@ -32,11 +32,11 @@ staff_long
 ```{r}
 staff_long %>%
   ggplot(aes(x = year, y = value, group = faculty_type, color = faculty_type)) +
-  geom_line()
+  geom_line() + 
+  labs(Title = "Faculty Type by Year", y = "Count", x = "Year", color = "Faculty Type")
 ```
 > Include the line plot you made above in your report and make sure the figure width is large enough to make it legible.
 Also fix the title, axis labels, and legend label.
-
 
 
 ### Exercise 2

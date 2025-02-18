@@ -1,3 +1,0 @@
-"0","staff_long %>%"
-"0","  ggplot(aes(x = year, y = value, group = faculty_type, color = faculty_type)) +"
-"0","  geom_line()"

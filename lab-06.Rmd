@@ -19,13 +19,30 @@ library(mosaicData)
 staff <- read_csv("data/instructional-staff.csv")
 ```
 
+```{r}
+staff_long <- staff %>%
+  pivot_longer(cols = -faculty_type, names_to = "year") %>%
+  mutate(value = as.numeric(value))
+```
+
+```{r}
+staff_long
+```
+
+```{r}
+staff_long %>%
+  ggplot(aes(x = year, y = value, group = faculty_type, color = faculty_type)) +
+  geom_line() + 
+  labs(Title = "Faculty Type by Year", y = "Count", x = "Year", color = "Faculty Type")
+```
+> Include the line plot you made above in your report and make sure the figure width is large enough to make it legible.
+Also fix the title, axis labels, and legend label.
+
+
 
 ### Exercise 2
 
-Remove this text, and add your answer for Exercise 1 here.
-Add code chunks as needed.
-Don't forget to label your code chunk.
-Do not use spaces in code chunk labels.
+> Suppose the objective of this plot was to show that the proportion of part-time faculty have gone up over time compared to other instructional staff types. What changes would you propose making to this plot to tell this story?
 
 ### Exercise 3
 
