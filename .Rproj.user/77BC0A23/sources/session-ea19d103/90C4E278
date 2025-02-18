@@ -3,7 +3,7 @@
     "path": "~/GitHub/Lab6A/lab-06.Rmd",
     "project_path": "lab-06.Rmd",
     "type": "r_markdown",
-    "hash": "287682061",
+    "hash": "665753818",
     "contents": "",
     "dirty": false,
     "created": 1739804442805.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "46,0",
-        "scrollLine": "41"
+        "cursorPosition": "54,118",
+        "scrollLine": "50"
     },
     "folds": "",
-    "lastKnownWriteTime": 1739901702,
+    "lastKnownWriteTime": 1739901971,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1739901702185,
+    "last_content_update": 1739901971297,
     "read_only": false,
     "read_only_alternatives": []
 }

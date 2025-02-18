@@ -47,6 +47,14 @@ Also fix the title, axis labels, and legend label.
 
 ### Exercise 3
 
-...
+> Can you help them make improve it? First, brainstorm how you would improve it. Then create the improved visualization and document your changes/decisions with bullet points. It’s ok if some of your improvements are aspirational, i.e. you don’t know how to implement it, but you think it’s a good idea. Implement what you can and leave notes identifying the aspirational improvements that could not be made. (You don’t need to recreate their plots in order to improve them) 
 
-Add exercise headings as needed.
+Potential Improvements:  
+- perhaps a bar graph would help to better visualize the smoothed line graph 
+- adjusting the scale of the graph so that you can see the countries that have lower fishery production
+- pie plots are not extremely informative, especially those with a hole in the middle (cannot see the angles which is how one determines sizes of categories)
+
+```{r}
+fisheries <- read_csv("data/fisheries.csv")
+```
+
