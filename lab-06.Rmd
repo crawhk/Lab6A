@@ -35,6 +35,8 @@ staff_long %>%
   geom_line() + 
   labs(Title = "Faculty Type by Year", y = "Count", x = "Year", color = "Faculty Type")
 ```
+
+
 > Include the line plot you made above in your report and make sure the figure width is large enough to make it legible.
 Also fix the title, axis labels, and legend label.
 
