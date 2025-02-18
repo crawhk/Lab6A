@@ -39,10 +39,11 @@ staff_long %>%
 Also fix the title, axis labels, and legend label.
 
 
-
 ### Exercise 2
 
-> Suppose the objective of this plot was to show that the proportion of part-time faculty have gone up over time compared to other instructional staff types. What changes would you propose making to this plot to tell this story?
+> Suppose the objective of this plot was to show that the proportion of part-time faculty have gone up over time compared to other instructional staff types. What changes would you propose making to this plot to tell this story?  
+
+- Can filter for part-time faculty then alter the plot so that the y-axis reflects change in percentage of faculty over time and the x-axis reflects year 
 
 ### Exercise 3
 
