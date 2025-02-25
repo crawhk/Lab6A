@@ -1,0 +1,6 @@
+"0","library(vcd)"
+"2","Loading required package: grid
+"
+"0","# Assuming your data is in a table or contingency format"
+"0","mosaic(~ smoker + outcome, data = Whickham)"
+"0",""

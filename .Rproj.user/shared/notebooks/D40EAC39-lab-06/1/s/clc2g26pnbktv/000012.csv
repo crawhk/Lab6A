@@ -1,0 +1,4 @@
+"0","Whickham_cat %>% "
+"0","  ggplot(aes(x = age_cat, fill = outcome)) +"
+"0","  geom_bar(position = ""dodge"") +"
+"0","  facet_wrap(~ smoker)"

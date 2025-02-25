@@ -1,0 +1,3 @@
+"0","library(vcd)"
+"0","mosaic(~ smoker + outcome + age_cat, data = Whickham_cat)"
+"0",""

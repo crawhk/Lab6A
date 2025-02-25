@@ -1,0 +1,5 @@
+"0","Whickham %>% "
+"0","  ggplot(aes(x = smoker, fill = outcome)) +"
+"0","  geom_bar(position = ""dodge"") +  # 'dodge' separates bars by Factor2 levels"
+"0","  labs(title = ""Grouped Bar Plot"", x = ""Smoker"", y = ""Count"") "
+"0",""

@@ -1,0 +1,9 @@
+"0","?Whickham"
+"0","library(performance)"
+"0","performance::compare_performance()"
+"2","When comparing models, please note that probably not all models were fit from same
+  data.
+"
+"2","Error in class(dfs) <- c(""compare_performance"", ""see_compare_performance"",  : 
+  attempt to set an attribute on NULL
+"
