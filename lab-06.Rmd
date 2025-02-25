@@ -79,5 +79,21 @@ fishlong
 ```
 
 ```{r}
+top20 <- fishlong %>% 
+  arrange(desc(Counts)) %>%  
+  top_n(20, Counts)
 ```
 
+```{r}
+top20 %>% 
+  filter(Type != "total") %>% 
+  ggplot(aes(x = reorder(country, -Counts), y = Counts, fill = Type)) +
+  geom_bar(stat = "identity", position = "dodge") +  
+  labs(title = "Top Fish Producing Countries", subtitle = "By Production Type", x = "Country", y = "Counts") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) 
+
+```
+
+
+- this gives a graph of the top fish producing countries by production type 

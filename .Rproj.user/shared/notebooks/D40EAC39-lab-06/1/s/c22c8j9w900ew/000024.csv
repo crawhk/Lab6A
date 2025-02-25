@@ -1,0 +1,8 @@
+"0","top20 %>% "
+"0","  filter(Type != ""total"") %>% "
+"0","  ggplot(aes(x = reorder(country, -Counts), y = Counts, fill = Type)) +"
+"0","  geom_bar(stat = ""identity"", position = ""dodge"") +  "
+"0","  labs(title = ""Top Fish Producing Countries"", subtitle = ""By Production Type"", x = ""Country"", y = ""Counts"") +"
+"0","  theme_minimal() +"
+"0","  theme(axis.text.x = element_text(angle = 45, hjust = 1)) "
+"0",""
